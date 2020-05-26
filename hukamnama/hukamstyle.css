@@ -1,0 +1,45 @@
+ @font-face { font-family: Raajaa; src: url('raajaa_7.ttf'); } 
+ @font-face { font-family: GurbaniAkhar; src: url('gurbaniakhar.ttf'); } 
+@font-face { font-family: Avenir; src: url('avenir.ttc'); } 
+
+
+
+.gurbani {
+    font-family: "Raajaa";
+    text-align: center;
+    font-size: 2.3vw;
+}
+
+.punjabi {
+    font-family: "GurbaniAkhar";
+    text-align: center;
+    font-size: 1.8vw;
+}
+
+.english {
+    font-family: "Avenir";
+    text-align: center;
+    font-size: 1.7vw;
+}
+
+.date {
+    font-family: "Avenir";
+    text-align: center;
+    font-size: 1.8vw;
+}
+
+.ndate {
+    font-family: "GurbaniAkhar";
+    text-align: center;
+    font-size: 1.8vw;
+}
+
+
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    
+}
+

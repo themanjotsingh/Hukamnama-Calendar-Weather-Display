@@ -1,0 +1,128 @@
+@namespace url(http://www.w3.org/1999/xhtml);
+
+
+
+.header {
+    visibility: hidden
+}
+
+.date-top{
+  font-size: 40px!important;
+  font-family: HelveticaNeue-Light,Helvetica,Arial,sans-serif!important;
+  text-align: left!important; 
+}
+
+.date-picker-on, .date-picker-off{
+  border: 0px!important;
+  padding: 1px!important;
+  width: 1200px!important;
+}
+
+.mv-event-container{
+  background-color: #FFF!important;
+  top: 25px!important;
+ }
+  
+.view-container-border{
+  background-color: #FFF!important;  
+}
+
+.view-cap{
+  background-color: #FFF!important;    
+}
+
+.st-bg, .st-bg-next, .st-bg-today{
+  border-left-width: 5px!important;
+  border-left-color: #FFF!important;
+  border-right-width: 0px!important;
+  border-left-style: solid!important;
+  background:url(grey.jpg)!important;
+}
+
+
+.mv-daynames-table{
+  background-color: #FFF!important;
+
+  line-height: 20px!important;
+
+}
+  
+.footer{
+   padding-top: 0px!important;
+    visibility: hidden;
+
+}
+
+
+.mv-dayname{
+  color: #111!important;
+  text-align: center!important;
+  font-size: 18px!important;
+  line-height: 18px!important;
+}
+
+
+
+.st-dtitle, .st-dtitle-next{
+  border-left-width: 5px!important;
+  border-top-width: 5px!important;
+  border-left-style: solid!important;
+  border-color: #FFF!important;
+  text-align: left!important;
+  font-size: 20px!important;
+  font-weight: bold!important;
+  color: #DDD!important;
+  background:url(https://raw.github.com/mmoustafa/Chalkboard/master/img/bg.png)!important;
+  padding-top: 5px!important;
+  padding-left: 5px!important;
+  padding-bottom: 5px!important;
+}
+
+.st-dtitle-nonmonth{
+  color: #888!important;
+}
+
+.st-dtitle-today{
+ border-color: #FFF!important; 
+ border-bottom-width: 0px!important;
+ border-right-width: 0px!important;
+ font-weight: bold!important;
+ text-decoration: underline!important;
+}
+.st-dtitle-down{
+  border-top-color: #FFF!important;
+}
+
+
+#dateMenuArrow1, .navSpacer, #calendarTabs1, .subscribe-image, .fe_forecast_link, .logo-plus-button{
+  display: none!important;
+}
+
+.rb-n{
+  background-color: black!important;
+  color: #FFF!important;
+  opacity: 0.9!important;
+  margin-left: 5px!important;
+  color: #FFF!important;
+}
+
+
+
+.te-t, .te-s{
+  color: #FFF!important;
+  opacity: 0.9!important;
+  padding-left: 5px!important;
+}
+
+.te-t{
+  font-weight: bold!important;
+}
+
+.st-wc{
+
+}
+
+
+#dateMenuArrow1, .navSpacer, #calendarTabs1, .subscribe-image, .fe_forecast_link, .logo-plus-button{
+  display: none;
+}

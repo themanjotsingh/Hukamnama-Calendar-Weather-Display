@@ -1,0 +1,55 @@
+<html>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+
+<head>
+    
+     <meta http-equiv="refresh" content="3600">
+
+    
+    <script>
+function startTime() {
+  var today = new Date();
+  var h = today.getHours();
+  var m = today.getMinutes();
+  var s = today.getSeconds();
+  m = checkTime(m);
+  s = checkTime(s);
+  document.getElementById('txt').innerHTML =
+  h + ":" + m + ":" + s;
+  var t = setTimeout(startTime, 500);
+}
+function checkTime(i) {
+  if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
+  return i;
+}
+</script>
+</head>
+
+<body onload="startTime()">
+    
+    <div class="clock">
+        <div id="txt"></div>
+
+    </div>
+    
+
+
+   <div class="cal"><iframe src="calendar/cal.html" style="border-width:0" width="95%" height="35%" frameborder="0" scrolling="no"></iframe>
+    </div> 
+    
+    
+    <div class="hukam"><iframe src="./hukamnama/hukamnama.html" style="border-width:0" width="95%" height="40%" frameborder="0" scrolling="no"></iframe>
+    </div> 
+    
+<br>
+<div class="weather">
+    <iframe style="align:left"id="forecast_embed" type="text/html" frameborder="0" height="17%" width="90%" src="http://forecast.io/embed/#lat=43.785&lon=-79.6778&name=Brampton&units=si"> </iframe>
+       </div> 
+
+    
+
+
+
+
+</body>
+</html>

@@ -108,10 +108,10 @@ href="//calendar.google.com/calendar/static/…
 7.	Delete the line which has the following `<span id="calendarTitle">`.
 
 #### To change displayed weather location
-Edit the `index.html` file in the main project directory. Change the `latitude` and `longitude` to wherever you would like the weather to show. You can change the title by changing ~Brampton, Ontario, Canada~ to *whatever your pind is*
+Edit the `index.html` file in the main project directory. Change the `latitude` and `longitude` to wherever you would like the weather to show. You can change the title by changing ~Brampton, Ontario, Canada~ to *whatever your pind is*.
 
 ## Acknowledgments
 
 [Hukamnama-Calendar-Weather-Display](https://github.com/themanjotsingh/Hukamnama-Calendar-Weather-Display) uses the [Gurbani Now API](https://github.com/GurbaniNow/api) which fetches the hukamnama from [SikhNet.com](http://www.sikhnet.com).
-Gurmukhi Font used are Raajaa by [Paul Grosse](http://www.billie.grosse.is-a-geek.com/resources-03.html) and GurbaniAkhar by [Kulbir S. Thind](sikhnet.com/Gurmukhi-Fonts#thind). Weather from [Forecast.io/DarkSky.net](https://darksky.net)
+Gurmukhi Font used are Raajaa by [Paul Grosse](http://www.billie.grosse.is-a-geek.com/resources-03.html) and GurbaniAkhar by [Kulbir S. Thind](http://www.sikhnet.com/Gurmukhi-Fonts#thind). Weather from [Forecast.io/DarkSky.net](https://darksky.net)
 Some code from [this instructables](https://www.instructables.com/id/Raspberry-Pi-Wall-Mounted-Calender-and-Notificatio/) project used.

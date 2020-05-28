@@ -1,28 +1,29 @@
 <html>
-    <link rel="stylesheet" type="text/css" href="styles.css">
 
 <head>
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
     
-     <meta http-equiv="refresh" content="3600">
-
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    
+    <meta http-equiv="refresh" content="3600">
     
     <script>
-function startTime() {
-  var today = new Date();
-  var h = today.getHours();
-  var m = today.getMinutes();
-  var s = today.getSeconds();
-  m = checkTime(m);
-  s = checkTime(s);
-  document.getElementById('txt').innerHTML =
-  h + ":" + m + ":" + s;
-  var t = setTimeout(startTime, 500);
-}
-function checkTime(i) {
-  if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
-  return i;
-}
-</script>
+    function startTime() {
+        var today = new Date();
+        var h = today.getHours();
+        var m = today.getMinutes();
+        var s = today.getSeconds();
+        m = checkTime(m);
+        s = checkTime(s);
+        document.getElementById('txt').innerHTML =
+        h + ":" + m + ":" + s;
+        var t = setTimeout(startTime, 500);
+    }
+    function checkTime(i) {
+        if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
+        return i;
+    }
+    </script>
 </head>
 
 <body onload="startTime()">
@@ -31,6 +32,7 @@ function checkTime(i) {
         <div id="txt"></div>
 
     </div>
+    
     
 
 
@@ -42,14 +44,9 @@ function checkTime(i) {
     </div> 
     
 <br>
-<div class="weather">
-    <iframe id="forecast_embed" type="text/html" frameborder="0" height="17%" width="95%" src="http://forecast.io/embed/#lat=43.785&lon=-79.6778&name=Brampton&units=si"> </iframe>
+    <div class="weather">
+    <iframe id="forecast_embed" type="text/html" frameborder="0" height="17%" width="95%" src="https://forecast.io/embed/#lat=43.785&lon=-79.6778&name=Brampton, Ontario, Canada&units=si"> </iframe>
        </div> 
 
-    
-
-
-
-
-</body>
+    </body>
 </html>

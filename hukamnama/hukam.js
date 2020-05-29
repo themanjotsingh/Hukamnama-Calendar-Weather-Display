@@ -10,6 +10,12 @@ $.getJSON(
           
         $('.ndate').append(ndate)
         
+        $('.ang').append("Ang " + data.hukamnamainfo.pageno)
+        $('.raag').append(data.hukamnamainfo.raag.akhar)
+        $('.writer').append(data.hukamnamainfo.writer.akhar)
+
+        
+        
         
         
         var line0g = data.hukamnama[0].line.gurmukhi.akhar;
@@ -24,7 +30,7 @@ $.getJSON(
                     
                     y=x[i]
                    
-            $('.gurbani').append(y.gurmukhi.akhar);
+            $('.gurbani').append(y.gurmukhi.akhar + " ");
                 
             }
         
@@ -35,7 +41,7 @@ $.getJSON(
                     
                     y=x[i]
                    
-            $('.punjabi').append(y.translation.punjabi.default.akhar);
+            $('.punjabi').append(y.translation.punjabi.default.akhar + " ");
                 
             }
         
@@ -45,7 +51,7 @@ $.getJSON(
                     
                     y=x[i]
                    
-            $('.english').append(y.translation.english.default);
+            $('.english').append(y.translation.english.default + " ");
                 
             }
                 

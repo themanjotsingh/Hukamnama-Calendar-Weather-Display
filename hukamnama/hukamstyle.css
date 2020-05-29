@@ -34,6 +34,24 @@
     font-size: 1.8vw;
 }
 
+.ang {
+    font-family: "Avenir";
+    text-align: center;
+    font-size: 1.8vw;
+}
+
+.writer {
+    font-family: "GurbaniAkhar";
+    text-align: center;
+    font-size: 1.8vw;
+}
+
+.raag {
+    font-family: "GurbaniAkhar";
+    text-align: center;
+    font-size: 1.8vw;
+}
+
 
 
 table {
@@ -43,3 +61,20 @@ table {
     
 }
 
+
+.table{
+    display:flex;
+    justify-content:center;
+}
+
+.tr{
+    display:flex;
+    justify-content:center;
+
+}
+
+.td{
+    justify-content:center;
+    width: "20%";
+
+}

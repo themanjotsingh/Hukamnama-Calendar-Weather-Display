@@ -1,6 +1,8 @@
 # Hukamnama Calendar Weather Display
 
-This is a simple project to easily display Sikh Ithihasik events and Hukamnama from Sachkhand Sri Harmandir Sahib Darbar Sahib Amritsar.
+This is a simple project to easily display Sikh Ithihasik events and Hukamnama from Sachkhand Sri Harmandir Sahib Darbar Sahib Amritsar. 
+
+Refreshes every two hours.
 
 [DEMO](https://https://themanjotsingh.github.io/Hukamnama-Calendar-Weather-Display/)
 **Note that this demo was made for a 32 inch vertically mounted monitor and you will have to adjust font sizes according to your own display.

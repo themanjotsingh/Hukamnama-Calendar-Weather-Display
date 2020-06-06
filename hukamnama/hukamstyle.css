@@ -7,7 +7,7 @@
 .gurbani {
     font-family: "Raajaa";
     text-align: center;
-    font-size: 2.3vw;
+    font-size: 2.1vw;
 }
 
 .punjabi {
@@ -65,16 +65,25 @@ table {
 .table{
     display:flex;
     justify-content:center;
+    height: "50px";
+
 }
 
 .tr{
     display:flex;
     justify-content:center;
-
 }
 
 .td{
     justify-content:center;
     width: "20%";
+
+
+}
+
+table{
+    justify-content:center;
+    width: "20%";
+
 
 }

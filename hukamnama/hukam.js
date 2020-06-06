@@ -29,8 +29,8 @@ $.getJSON(
                 for (i in x) 
                     
                     y=x[i]
-                   
-            $('.gurbani').append(y.gurmukhi.akhar + " ");
+                   var shabad = y.gurmukhi.akhar
+            $('.gurbani').append(shabad.replace(">", "") + " ");
                 
             }
         

@@ -2,11 +2,11 @@
 
 <head>
     <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
-    
+
     <link rel="stylesheet" type="text/css" href="styles.css">
-    
-    <meta http-equiv="refresh" content="3600">
-    
+
+    <meta http-equiv="refresh" content="7200">
+
     <script>
     function startTime() {
         var today = new Date();
@@ -24,29 +24,28 @@
         return i;
     }
     </script>
+
 </head>
 
 <body onload="startTime()">
-    
+
+
     <div class="clock">
         <div id="txt"></div>
 
     </div>
-    
-    
+
+   <div class="cal"><iframe src="calendar/cal.html" style="border-width:0" width="95%" height="30%" frameborder="0" scrolling="no"></iframe>
+    </div>
 
 
-   <div class="cal"><iframe src="calendar/cal.html" style="border-width:0" width="95%" height="35%" frameborder="0" scrolling="no"></iframe>
-    </div> 
-    
-    
-    <div class="hukam"><iframe src="./hukamnama/hukamnama.html" style="border-width:0" width="95%" height="40%" frameborder="0" scrolling="no"></iframe>
-    </div> 
-    
+    <div class="hukam"><iframe src="./hukamnama/hukamnama.html" style="border-width:0" width="95%" height="50%" frameborder="0" scrolling="no"></iframe>
+    </div>
+
 <br>
     <div class="weather">
     <iframe id="forecast_embed" type="text/html" frameborder="0" height="17%" width="95%" src="https://forecast.io/embed/#lat=43.785&lon=-79.6778&name=Brampton, Ontario, Canada&units=si"> </iframe>
-       </div> 
+       </div>
 
     </body>
 </html>

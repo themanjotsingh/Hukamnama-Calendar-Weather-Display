@@ -81,8 +81,11 @@ At the bottom of this document add the following [lines](https://raspberrypi.sta
 @xset -dpms # to disable Display Power Management Signaling
 @xset s noblank # to disable screen going blank
 @chromium-browser –kiosk -http://localhost/ # to load chromium after boot and open the page in full screen mode
-13.	reboot.
+
 ```
+13.	reboot.
+
+
 
 ## Some modifications
 

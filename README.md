@@ -4,7 +4,7 @@ This is a simple project to easily display Sikh Ithihasik events and Hukamnama f
 
 Refreshes every two hours.
 
-[DEMO](https://https://themanjotsingh.github.io/Hukamnama-Calendar-Weather-Display/)
+[DEMO](https://themanjotsingh.github.io/Hukamnama-Calendar-Weather-Display/)
 **Note that this demo was made for a 32 inch vertically mounted monitor and you will have to adjust font sizes according to your own display.
 
 <p align="center">
